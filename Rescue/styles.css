@@ -1,0 +1,92 @@
+/* 
+Rylee Fodness
+9/10
+styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3 {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+} 
+
+/* style rules for body and images */
+body {
+    background-color: #f6eee4;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+/* style rules for naivgation area*/
+nav, nav ul, nav li, nav li a {
+    background-color: #2a1f14;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block; 
+    font-size: 1.5em;
+    font-family: geneva, arial, sans-serif;
+    font-weight: bold;
+}
+nav li a {
+    display: block;
+    color: #f6eeef; 
+    padding-top: .05em;
+    padding-bottom: .05em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main, main p, main h3, main ul, .link, .action, #contact {
+    padding: 2%; 
+    font-family: verdana, arial, sans-serif; 
+}
+main p {
+    font-size: 1.25em; 
+}
+main h3{
+    padding: 2%; 
+}
+main ul{
+    list-style: square;
+}
+.link{
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+#contact {
+    text-align: center;
+}
+
+/* style rules for footer content */
+footer {
+    text-align: center; 
+    font-size: .85em; 
+    background-color: #2a1f14;
+    color: #f6eee4; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
